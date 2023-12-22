@@ -83,6 +83,30 @@ ul li {
     margin-bottom: 12px;
 }
 
+.cart {
+    position: relative;
+}
+
+.cart::after {
+    position: absolute;
+    top: -8px;
+    right: -9px;
+    display: flex;
+    background-color: #F16D7F;
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    align-items: center;
+    justify-content: center;
+    content: "5";
+    color: #FFF;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .menu_icon:hover path {
     fill: #F16D7F;
 }
